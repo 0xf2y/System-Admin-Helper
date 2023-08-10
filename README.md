@@ -1,10 +1,30 @@
 # System-Admin-Helper
-GNU/Linux is a multiuser operating system allowing many users to log in and perform several activities at the same time. 
-There are several administration tasks that are handled with user management, which include:
-- setting the default shell for the user
-- disabling a user account
-- disabling a shell account
-- adding new users
-- removing users
-- setting a password
-- setting an expiry date for a user account
+This repository contains Bash code to help System Administrators to manage users and groups.
+
+# Overview
+Several administration tasks that are handled with user management, which include:
+* Disabling a user account
+* Disabling a shell account
+* Adding new users
+* Removing users
+* Setting a password
+* Setting an expiry date for a user account
+  
+## Prerequisites
+Before running the Bash script, you will need to have the following:
+* Linux OS
+
+## To get started:
+Clone this repository to your local machine.
+```
+https://github.com/AbdulrahmanElfeki/System-Admin-Helper
+```
+Change script permissions
+```
+chmod +x main.sh
+```
+To start the project:
+```
+./main.sh
+``` 
+Then choose task number to perform desired task
